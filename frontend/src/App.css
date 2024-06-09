@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-image: url("https://wallpaperaccess.com/full/1508669.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+header {
+  background: rgba(71, 74, 79, 0.8);
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  font-size: 1.5em;
+}
+
+
+form {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333; 
+}
+
+form input[type="text"],
+form input[type="date"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1em;
+  color: #333; 
+}
+
+form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+form button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+/* Task List */
+.task-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task-list li {
+  background: rgba(255, 255, 255, 0.8);
+  margin: 10px 0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-list .task-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 0;
+  color: #333; 
+}
+
+.task-list .task-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.task-list .task-actions button {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.task-list .task-actions button:hover {
+  background-color: #e53935;
+  transform: scale(1.05);
+}
+
+.task-list .task-actions .edit-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.task-list .task-actions .edit-button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+
+#addTaskButton {
+  background-color: #FF5722;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  margin-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+#addTaskButton:hover {
+  background-color: #E64A19;
+  transform: scale(1.05);
+}
