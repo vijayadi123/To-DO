@@ -1,0 +1,21 @@
+First , I choose MongoDB Atlas for cloud platform hosting using M0 free tier server .
+
+
+
+The first issue I got while connecting was MongoDB Database timeout error even though it had correct credentials in the Connection String
+
+The error persisted even though I had changed the database cluster and tried many more ways . Finally referred stack overflow and changed my internet DNS server name to Google's Server Name
+
+
+
+
+
+
+
+Used Express for CRUD operations .
+ReactJS for frontend so that it's responsive for Web and App Users. 
+
+
+
+
+
